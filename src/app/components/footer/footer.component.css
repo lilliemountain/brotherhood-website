@@ -1,0 +1,33 @@
+.container-fluid {
+  background-color: var(--accent-color) !important;
+}
+
+.container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.container h5 {
+  color: white;
+  font-size: 1rem;
+}
+
+.container ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container ul li {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.container ul li a {
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}

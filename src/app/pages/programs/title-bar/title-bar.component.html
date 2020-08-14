@@ -1,0 +1,15 @@
+<div class="container-fluid">
+  <div class="welcome__image-container" [style.backgroundImage]="'url('+ imageUrl +')'">
+    <div class="welcome_heading1">
+      <p>
+        {{ title }}
+      </p>
+    </div>
+
+    <div class="welcome__heading2" *ngIf="subTitle">
+      <p>
+        {{ subTitle }}
+      </p>
+    </div>
+  </div>
+  </div>

@@ -1,0 +1,40 @@
+.welcome__image-container {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.welcome_heading1 {
+  position: absolute;
+  top: 4rem;
+  left: 5%;
+  background-color: var(--backgroundColor);
+  padding: 15px 25px;
+}
+
+.welcome__heading2 {
+  position: absolute;
+  top: 12rem;
+  left: 5%;
+  background-color: var(--backgroundColor);
+  padding: 15px 25px;
+}
+
+.welcome_heading1 p {
+  font-size: 2.3rem;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.2rem;
+}
+
+.welcome__heading2 p {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.2rem;
+}

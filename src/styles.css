@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Brand Colors */
+:root {
+  --accent-color: #000000;
+  --primary-color: #3861e0;
+  --whiteSmoke: #f6f5f3;
+  --cobal: #3861e0;
+  --steelGrey: #7f7f7f;
+  --goldYellow: #eaab3b;
+  --redWine: #eaab3b;
+  --freshGreen: #00a878;
+  --backgroundColor: #f7f6f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+}
+
+.container-fluid {
+  background-color: var(--backgroundColor, #f6f6f4) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+li:active,
+li:focus {
+  outline: none;
+}
+
+body {
+  width:100%;
+  overflow-x: hidden !important;
+}
