@@ -37,6 +37,7 @@ export class TopNavComponent implements OnInit {
         link.addEventListener('click', () => {
           if (link.className === 'main') {
             this.navElement.classList.remove('nav-active');
+            this.burgerButton.classList.remove('toggle');
           } else {
           }
         });
@@ -46,6 +47,7 @@ export class TopNavComponent implements OnInit {
           subLinks.forEach((li: any, index) => {
             li.addEventListener('click', () => {
               this.navElement.classList.remove('nav-active');
+              this.burgerButton.classList.remove('toggle');
             });
           });
         });
