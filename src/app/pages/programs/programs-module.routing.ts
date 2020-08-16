@@ -7,6 +7,7 @@ import { OutdoorSessionsComponent } from './outdoor-sessions/outdoor-sessions.co
 import { BortherhoodCorporateWellnessComponent } from './bortherhood-corporate-wellness/bortherhood-corporate-wellness.component';
 import { OpenGymComponent } from './open-gym/open-gym.component';
 import { ElementsComponent } from './elements/elements.component';
+import { BrotherMamasComponent } from './brother-mamas/brother-mamas.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,7 @@ const routes: Routes = [
       { path: 'Brotherhood Corporate Wellness', component: BortherhoodCorporateWellnessComponent },
       { path: 'Open Gym', component: OpenGymComponent },
       { path: 'Elements', component: ElementsComponent },
+      { path: 'Brotherhood Mamas', component: BrotherMamasComponent }
   ],
   },
 ];

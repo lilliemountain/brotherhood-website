@@ -46,7 +46,7 @@
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
-  color: black;
+  color: var(--accent-color);
 }
 
 .links-container li a:hover {
@@ -61,7 +61,7 @@
 .dd_div {
   width: 240px;
   border: 1px solid #e0dcdc;
-  color: black;
+  color: var(--accent-color);;
   background-color: var(--backgroundColor);
   position: absolute;
   z-index: 2;
@@ -102,7 +102,7 @@
 .burger .line1, .line2, .line3 {
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: var(--accent-color);;
   margin: 5px;
   transition: all 0.3s ease-out;
 }

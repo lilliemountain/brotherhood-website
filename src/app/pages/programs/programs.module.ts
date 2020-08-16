@@ -9,6 +9,7 @@ import { BortherhoodCorporateWellnessComponent } from './bortherhood-corporate-w
 import { OpenGymComponent } from './open-gym/open-gym.component';
 import { ElementsComponent } from './elements/elements.component';
 import { TitleBarComponent } from './title-bar/title-bar.component';
+import { BrotherMamasComponent } from './brother-mamas/brother-mamas.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { TitleBarComponent } from './title-bar/title-bar.component';
     OpenGymComponent,
     ElementsComponent,
     TitleBarComponent,
+    BrotherMamasComponent,
   ],
   imports: [CommonModule, ProgramsRoutingModule],
   exports: [
