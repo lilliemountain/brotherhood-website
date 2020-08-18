@@ -1,11 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-title-bar',
-  templateUrl: './title-bar.component.html',
-  styleUrls: ['./title-bar.component.css']
+  selector: 'app-top-image-title',
+  templateUrl: './top-image-title.component.html',
+  styleUrls: ['./top-image-title.component.css']
 })
-export class TitleBarComponent implements OnInit {
+export class TopImageTitleComponent implements OnInit {
 
   @Input() imageUrl: string;
   @Input() title: string;
@@ -14,7 +14,6 @@ export class TitleBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.imageUrl);
   }
 
 }

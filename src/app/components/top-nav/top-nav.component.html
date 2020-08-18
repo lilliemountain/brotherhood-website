@@ -1,7 +1,7 @@
 <div class="nav-container">
   <div class="nav-content">
     <div class="logo-container">
-      <img src="../../../assets/Logo/logo.png" height="100%" width="200px" />
+      <img src="../../../assets/Logo/logo-plain.png" height="150" width="150" />
     </div>
     <div class="links-container">
       <ul class="main-ul">
@@ -14,7 +14,7 @@
           <div class="dd_div" *ngIf="showGetStartedMenu" (mouseover)="onShowGetStartedMenu(true)"
             (mouseleave)="onShowGetStartedMenu(false)">
             <ul>
-              <li>
+              <li routerLink="/Get Started/Try Free" routerLinkActive="active-item" (click)="showGetStartedMenu = false">
                 <a>Try a free class (No Prior CF Experience)</a>
               </li>
 
@@ -63,7 +63,7 @@
 
               <li routerLink="/Programs/Brotherhood Kids" routerLinkActive="active-item" (click)="showProgramsMenu = false">
                 <a>
-                  Brotherhood Kids
+                  HYBRID 360FIT Kids
                 </a>
               </li>
 
@@ -75,7 +75,7 @@
 
               <li routerLink="/Programs/Brotherhood Corporate Wellness" routerLinkActive="active-item" (click)="showProgramsMenu = false">
                 <a>
-                  Brotherhood Corporate Wellness
+                  HYBRID 360FIT Corporate Wellness
                 </a>
               </li>
 
@@ -87,7 +87,7 @@
 
               <li routerLink="/Programs/Brotherhood Mamas" routerLinkActive="active-item" (click)="showProgramsMenu = false">
                 <a>
-                  Brotherhood Mamas
+                  HYBRID 360FIT Mamas
                 </a>
               </li>
 
@@ -100,16 +100,16 @@
           </div>
         </li>
 
-        <li class="main">
+        <!-- <li class="main">
           <a>LOCATIONS</a>
-        </li>
+        </li> -->
 
         <li class="main">
           <a>COMMUNITY</a>
         </li>
 
-        <li class="main">
-          <a>CONTACT US</a>
+        <li class="main" >
+          <a routerLink="/Contact Us" routerLinkActive="active-item">CONTACT US</a>
         </li>
       </ul>
     </div>

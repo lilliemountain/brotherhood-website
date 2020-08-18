@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { AboutUsRoutingModule } from './about-us-routing.module';
 import { AboutUsComponent } from './about-us.component';
-import { ProgramsModule } from '../programs/programs.module';
+import { TopImageTitleModule } from '../../shared/top-image-title/top-image-title.module';
 
 
 @NgModule({
@@ -11,7 +11,7 @@ import { ProgramsModule } from '../programs/programs.module';
   imports: [
     CommonModule,
     AboutUsRoutingModule,
-    ProgramsModule,
+    TopImageTitleModule,
   ]
 })
 export class AboutUsModule { }

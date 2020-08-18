@@ -102,12 +102,14 @@
   padding: 21px 34px;
   text-decoration: underline;
   box-shadow: none;
+  cursor: pointer;
 }
 
 .primary-button:hover {
   background-color: #252323;
   text-decoration: none;
   border-color: #252323;
+  cursor: pointer;
 }
 
 .block-span {
@@ -131,6 +133,11 @@
   .welcome__heading2 p {
     font-size: 1rem;
   }
+
+  .fixed-indicator {
+    display: none;
+  }
+
 }
 
 /* Indicator */

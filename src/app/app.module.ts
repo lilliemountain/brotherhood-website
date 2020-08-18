@@ -7,6 +7,7 @@ import { TopNavComponent } from './components/top-nav/top-nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { TopImageTitleModule } from './shared/top-image-title/top-image-title.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TopImageTitleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

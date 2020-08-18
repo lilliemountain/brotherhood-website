@@ -8,8 +8,8 @@ import { OutdoorSessionsComponent } from './outdoor-sessions/outdoor-sessions.co
 import { BortherhoodCorporateWellnessComponent } from './bortherhood-corporate-wellness/bortherhood-corporate-wellness.component';
 import { OpenGymComponent } from './open-gym/open-gym.component';
 import { ElementsComponent } from './elements/elements.component';
-import { TitleBarComponent } from './title-bar/title-bar.component';
 import { BrotherMamasComponent } from './brother-mamas/brother-mamas.component';
+import { TopImageTitleModule } from '../../shared/top-image-title/top-image-title.module';
 
 @NgModule({
   declarations: [
@@ -20,12 +20,8 @@ import { BrotherMamasComponent } from './brother-mamas/brother-mamas.component';
     BortherhoodCorporateWellnessComponent,
     OpenGymComponent,
     ElementsComponent,
-    TitleBarComponent,
     BrotherMamasComponent,
   ],
-  imports: [CommonModule, ProgramsRoutingModule],
-  exports: [
-    TitleBarComponent,
-  ]
+  imports: [CommonModule, ProgramsRoutingModule, TopImageTitleModule],
 })
 export class ProgramsModule {}
