@@ -1,5 +1,5 @@
 <div class="container-fluid">
-  <div class="welcome__image-container">
+  <div class="welcome__image-container" id="welcomeContainer">
     <div class="welcome_heading1">
       <p>
         WELCOME TO BROTHERHOOD
@@ -93,7 +93,7 @@
 
   <!-- For All Levels -->
 
-  <div class="welcome__image-container2 mt-5">
+  <div class="welcome__image-container2 mt-5" id="levelContainer">
     <div class="welcome_heading1">
       <p>
         FOR ALL LEVELS
@@ -140,7 +140,7 @@
 
   <!-- Dedication Experience-->
 
-  <div class="welcome__image-container3 mt-5">
+  <div class="welcome__image-container3 mt-5" id="dedicationContainer">
     <div class="welcome_heading1">
       <p>
         DEDICATION + EXPERIENCE
@@ -247,5 +247,51 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- Indicator -->
+<div class="fixed-indicator">
+  <div class="indicator-div">
+    <span
+      class="indicator-text"
+      [ngStyle]="{ opacity: welcomeIndicator ? 1 : 0 }"
+      >WELCOME TO HYBRID 360FIT</span
+    >
+    <div
+      class="indicator-circle"
+      [ngClass]="welcomeIndicator || welcomeDotIndicator ? 'active-circle' : ''"
+      (mouseover)="onHoverIndicator('welcome')"
+      (mouseout)="onHoverIndicator('')"
+      (click)="scrollToElement('#welcomeContainer')"
+    ></div>
+  </div>
+  <div class="indicator-div">
+    <span class="indicator-text" [ngStyle]="{ opacity: levelIndicator ? 1 : 0 }"
+      >FOR ALL LEVELS</span
+    >
+    <div
+      class="indicator-circle"
+      [ngClass]="levelIndicator || levelDotIndicator ? 'active-circle' : ''"
+      (mouseover)="onHoverIndicator('level')"
+      (mouseout)="onHoverIndicator('')"
+      (click)="scrollToElement('#levelContainer')"
+
+    ></div>
+  </div>
+
+  <div class="indicator-div">
+    <span
+      class="indicator-text"
+      [ngStyle]="{ opacity: dedicationIndicator ? 1 : 0 }"
+      >DEDICATION + EXPERIENCE</span
+    >
+    <a
+      class="indicator-circle"
+      [ngClass]="dedicationIndicator || dedicationDotIndicator ? 'active-circle' : ''"
+      (mouseover)="onHoverIndicator('dedication')"
+      (mouseout)="onHoverIndicator('')"
+      (click)="scrollToElement('#dedicationContainer')"
+    ></a>
   </div>
 </div>

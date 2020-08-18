@@ -2,7 +2,7 @@
   position: relative;
   height: 850px;
   width: 100%;
-  background: url('../../../assets/Home/welcome.png') no-repeat;
+  background: url("../../../assets/Home/welcome.png") no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -12,7 +12,7 @@
   position: relative;
   height: 850px;
   width: 100%;
-  background: url('../../../assets/Home/welcome3.jpg') no-repeat;
+  background: url("../../../assets/Home/welcome3.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -22,7 +22,7 @@
   position: relative;
   height: 850px;
   width: 100%;
-  background: url('../../../assets/Home/welcome4.jpg') no-repeat;
+  background: url("../../../assets/Home/welcome4.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -32,7 +32,7 @@
   position: relative;
   height: 850px;
   width: 100%;
-  background: url('../../../assets/Home/welcome5.jpg') no-repeat;
+  background: url("../../../assets/Home/welcome5.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -115,7 +115,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .welcome_heading1 {
     padding: 10px;
     right: 1rem;
@@ -132,4 +131,54 @@
   .welcome__heading2 p {
     font-size: 1rem;
   }
+}
+
+/* Indicator */
+.fixed-indicator {
+  position: fixed;
+  right: 10px;
+  top: 40vh;
+  padding: 0 1rem;
+  z-index: 5;
+}
+
+.indicator-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.indicator-circle {
+  height: 11px;
+  width: 11px;
+  margin-left: 1rem;
+  border-radius: 100%;
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.indicator-text {
+  color: var(--accent-color);
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.indicator-circle-dark {
+  background-color: var(--backgroundColor);
+  border: 1px solid var(--backgroundColor);
+}
+
+.text-dark {
+  color: var(--backgroundColor) !important;
+}
+
+.active-circle {
+  background-color: transparent;
 }
