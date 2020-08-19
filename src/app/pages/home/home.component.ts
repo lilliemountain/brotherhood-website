@@ -42,8 +42,8 @@ export class HomeComponent implements OnInit {
 
       const circleDivs = document.querySelectorAll('.indicator-circle');
       const textDivs = document.querySelectorAll('.indicator-text');
-      console.log(scroll);
-      if (scroll < 700 || (scroll >= 1830 && scroll <= 2685) || (scroll >= 3125 && scroll <= 4005) || (scroll >= 4445 && scroll <= 5310)) {
+      // console.log(scroll);
+      if (scroll < 550 || (scroll >= 1620 && scroll <= 2490) || (scroll >= 2895 && scroll <= 3770) || (scroll >= 4195 && scroll <= 5045)) {
         circleDivs.forEach(el => {
           el.classList.add('indicator-circle-dark');
         });

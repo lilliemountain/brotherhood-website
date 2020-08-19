@@ -19,6 +19,11 @@
   justify-content: center;
 }
 
+.logo-container img {
+  outline: none;
+  cursor: pointer;
+}
+
 .links-container {
   width: 80%;
   height: 100%;
