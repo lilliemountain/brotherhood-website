@@ -22,19 +22,19 @@ export class HomeComponent implements OnInit {
     window.addEventListener('scroll', (element) => {
       const scroll = window.scrollY;
 
-      if (scroll <= 1785) {
+      if (scroll <= 1644) {
         this.welcomeDotIndicator = true;
       } else {
         this.welcomeDotIndicator = false;
       }
 
-      if (scroll > 1785 && scroll <= 3105) {
+      if (scroll > 1644 && scroll <= 2710) {
         this.levelDotIndicator = true;
       } else {
         this.levelDotIndicator = false;
       }
 
-      if (scroll > 3105 && scroll <= 4445) {
+      if (scroll > 2710 && scroll <= 3775) {
         this.dedicationDotIndicator = true;
       } else {
         this.dedicationDotIndicator = false;
@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit {
       const circleDivs = document.querySelectorAll('.indicator-circle');
       const textDivs = document.querySelectorAll('.indicator-text');
       // console.log(scroll);
-      if (scroll < 550 || (scroll >= 1620 && scroll <= 2490) || (scroll >= 2895 && scroll <= 3770) || (scroll >= 4195 && scroll <= 5045)) {
+      if (scroll < 550 || (scroll >= 1620 && scroll <= 2285) || (scroll >= 2710 && scroll <= 3352) || (scroll >= 3776 && scroll <= 4420)) {
         circleDivs.forEach(el => {
           el.classList.add('indicator-circle-dark');
         });
