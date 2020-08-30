@@ -92,26 +92,6 @@
   object-fit: cover;
 }
 
-.primary-button {
-  font-size: 0.95rem;
-  color: white;
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-  font-weight: 600;
-  letter-spacing: 1px;
-  padding: 21px 34px;
-  text-decoration: underline;
-  box-shadow: none;
-  cursor: pointer;
-}
-
-.primary-button:hover {
-  background-color: #252323;
-  text-decoration: none;
-  border-color: #252323;
-  cursor: pointer;
-}
-
 .block-span {
   display: block;
 }
@@ -137,7 +117,6 @@
   .fixed-indicator {
     display: none;
   }
-
 }
 
 /* Indicator */

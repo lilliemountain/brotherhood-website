@@ -1,15 +1,11 @@
 <div class="container-fluid">
   <div class="welcome__image-container" id="welcomeContainer">
     <div class="welcome_heading1">
-      <p>
-        WELCOME TO HYBRID 360FIT
-      </p>
+      <p>WELCOME TO HYBRID 360FIT</p>
     </div>
 
     <div class="welcome__heading2">
-      <p>
-        FITNESS FOR EVERYBODY
-      </p>
+      <p>FITNESS FOR EVERYBODY</p>
     </div>
   </div>
 
@@ -21,9 +17,7 @@
       </div>
 
       <div class="col-sm-12 mt-3">
-        <h6>
-          PINT OF SWEAT, SAVES A GALLON OF BLOOD – GEORGE.S.PATTON
-        </h6>
+        <h6>PINT OF SWEAT, SAVES A GALLON OF BLOOD – GEORGE.S.PATTON</h6>
       </div>
 
       <div class="col-sm-12 mt-4">
@@ -32,9 +26,7 @@
             HYBRID 360FIT, a perfect place to break a sweat and then sweat your
             way to success in achieving your health and fitness goals.
           </span>
-          <span class="block-span">
-            Are you lazy?
-          </span>
+          <span class="block-span"> Are you lazy? </span>
           <span class="block-span">
             Or just don’t find the determination to tie your laces and head to
             the gym?
@@ -43,12 +35,8 @@
             or any other reason? don’t you worry, whatever your reason is, we've
             got you covered.
           </span>
-          <span class="block-span">
-            How?
-          </span>
-          <span class="block-span">
-            With our custom-tailored programs!
-          </span>
+          <span class="block-span"> How? </span>
+          <span class="block-span"> With our custom-tailored programs! </span>
           <span class="block-span">
             We work on the environment of the workout, not just the workout, we
             have created an environment with trainers so pumped up, they will
@@ -86,7 +74,7 @@
       </div>
 
       <div class="col-sm-12 col-md-10 offset-md-1 mt-4">
-        <img src="../../../assets/Home/welcome2.png" id="welcomeinfoImg" />
+        <img src="../../../assets/Home/welcome6.jpg" id="welcomeinfoImg" />
       </div>
     </div>
   </div>
@@ -95,15 +83,11 @@
 
   <div class="welcome__image-container2 mt-5" id="levelContainer">
     <div class="welcome_heading1">
-      <p>
-        FOR ALL LEVELS
-      </p>
+      <p>FOR ALL LEVELS</p>
     </div>
 
     <div class="welcome__heading2">
-      <p>
-        Come Try a Free Class Today!
-      </p>
+      <p>Come Try a Free Class Today!</p>
     </div>
   </div>
 
@@ -124,14 +108,18 @@
           create a community and an ambiance such, that will make you want to
           come workout every day. Our seasoned coaches will teach you the proper
           techniques and encourage you to push yourself to
-          <span style="color: red;">your own personal limits. </span> Workouts
+          <span style="color: red">your own personal limits. </span> Workouts
           are scaled for every single individual. Our belief lies in endless
           possibilities Come in today and see what we’re all about!
         </p>
       </div>
 
       <div class="col-sm-12 text-right">
-        <button class="primary-button" routerLink="/Get Started/Try Free" type="button">
+        <button
+          class="primary-button"
+          routerLink="/Get Started/Try Free"
+          type="button"
+        >
           TRY A FREE CLASS
         </button>
       </div>
@@ -142,15 +130,11 @@
 
   <div class="welcome__image-container3 mt-5" id="dedicationContainer">
     <div class="welcome_heading1">
-      <p>
-        DEDICATION + EXPERIENCE
-      </p>
+      <p>DEDICATION + EXPERIENCE</p>
     </div>
 
     <div class="welcome__heading2">
-      <p>
-        Meet Our Coaches
-      </p>
+      <p>Meet Our Coaches</p>
     </div>
   </div>
 
@@ -188,20 +172,16 @@
 
   <div class="welcome__image-container4 mt-5">
     <div class="welcome_heading1">
-      <p>
-        MULTIPLE LOCATIONS
-      </p>
+      <p>NOW IN KHARGHAR</p>
     </div>
 
     <div class="welcome__heading2">
-      <p>
-        Join us at one or our locations!
-      </p>
+      <p>Join us!</p>
     </div>
   </div>
 
   <!-- New To Cross fir -->
-  <div class="container" style="padding-bottom: 100px;">
+  <div class="container" style="padding-bottom: 100px">
     <div class="row">
       <div class="col-sm-12 text-left">
         <h3>NEW TO CROSS FIT? TRY A CLASS ON US!</h3>
@@ -209,10 +189,10 @@
 
       <div class="col-sm-12 mt-4">
         <p class="welcome-info">
-          The best way to experience HYBRID 360FIT is to join in for a FREE class.
-          Don’t worry about being a first-timer or not being “in shape.” Our
-          knowledgeable coaches will help guide you and scale your workout to a
-          level where you’re comfortable! We’re excited to meet you!
+          The best way to experience HYBRID 360FIT is to join in for a FREE
+          class. Don’t worry about being a first-timer or not being “in shape.”
+          Our knowledgeable coaches will help guide you and scale your workout
+          to a level where you’re comfortable! We’re excited to meet you!
         </p>
       </div>
     </div>
@@ -276,7 +256,6 @@
       (mouseover)="onHoverIndicator('level')"
       (mouseout)="onHoverIndicator('')"
       (click)="scrollToElement('#levelContainer')"
-
     ></div>
   </div>
 
@@ -288,7 +267,9 @@
     >
     <a
       class="indicator-circle"
-      [ngClass]="dedicationIndicator || dedicationDotIndicator ? 'active-circle' : ''"
+      [ngClass]="
+        dedicationIndicator || dedicationDotIndicator ? 'active-circle' : ''
+      "
       (mouseover)="onHoverIndicator('dedication')"
       (mouseout)="onHoverIndicator('')"
       (click)="scrollToElement('#dedicationContainer')"
