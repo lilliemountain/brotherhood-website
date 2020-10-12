@@ -14,7 +14,7 @@ const routes: Routes = [
     path: '',
     component: ProgramsComponent,
     children: [
-      { path: 'Crossfit', component: CrossfitComponent },
+      { path: 'Workout-of-the-day', component: CrossfitComponent },
       { path: 'Brotherhood Kids', component: BrotherhodKidsComponent },
       { path: 'Outdoor Sessions', component: OutdoorSessionsComponent },
       { path: 'Brotherhood Corporate Wellness', component: BortherhoodCorporateWellnessComponent },
