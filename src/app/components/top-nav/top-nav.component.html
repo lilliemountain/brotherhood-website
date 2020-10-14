@@ -1,12 +1,7 @@
 <div class="nav-container">
   <div class="nav-content">
     <div class="logo-container">
-      <img
-        src="../../../assets/Logo/logo-plain.png"
-        height="150"
-        width="150"
-        routerLink="/Home"
-      />
+      <img src="../../../assets/Logo/logo-plain.png" height="150" width="150" routerLink="/Home" />
     </div>
     <div class="links-container">
       <ul class="main-ul">
@@ -15,9 +10,7 @@
         </li>
 
         <li class="main">
-          <a routerLink="/Get Started/Try Free" routerLinkActive="active-item"
-            >GET STARTED</a
-          >
+          <a routerLink="/Get Started/Try Free" routerLinkActive="active-item">GET STARTED</a>
         </li>
 
         <!-- <li (mouseover)="onShowGetStartedMenu(true)" (mouseleave)="onShowGetStartedMenu(false)" class="sub">
@@ -63,71 +56,41 @@
           </div> -->
         </li>
 
-        <li
-          (mouseover)="onShowProgramsMenu(true)"
-          (mouseleave)="onShowProgramsMenu(false)"
-        >
+        <li (mouseover)="onShowProgramsMenu(true)" (mouseleave)="onShowProgramsMenu(false)">
           <a>PROGRAMS</a>
-          <div
-            class="dd_div"
-            *ngIf="showProgramsMenu"
-            (mouseover)="onShowProgramsMenu(true)"
-            (mouseleave)="onShowProgramsMenu(false)"
-          >
+          <div class="dd_div" *ngIf="showProgramsMenu" (mouseover)="onShowProgramsMenu(true)"
+            (mouseleave)="onShowProgramsMenu(false)">
             <ul>
-              <li
-                routerLink="/Programs/Workout-of-the-day"
-                routerLinkActive="active-item"
-                (click)="showProgramsMenu = false"
-              >
+              <li routerLink="/Programs/Workout-of-the-day" routerLinkActive="active-item"
+                (click)="showProgramsMenu = false">
                 <a>Workout of the day</a>
               </li>
 
-              <li
-                routerLink="/Programs/Elements"
-                routerLinkActive="active-item"
-                (click)="showProgramsMenu = false"
-              >
+              <li routerLink="/Programs/Elements" routerLinkActive="active-item" (click)="showProgramsMenu = false">
                 <a> Elements </a>
               </li>
 
-              <li
-                routerLink="/Programs/Brotherhood Mamas"
-                routerLinkActive="active-item"
-                (click)="showProgramsMenu = false"
-              >
+              <li routerLink="/Programs/Brotherhood Mamas" routerLinkActive="active-item"
+                (click)="showProgramsMenu = false">
                 <a> HYBRID 360FIT Mamas </a>
               </li>
 
-              <li
-                routerLink="/Programs/Brotherhood Kids"
-                routerLinkActive="active-item"
-                (click)="showProgramsMenu = false"
-              >
+              <li routerLink="/Programs/Brotherhood Kids" routerLinkActive="active-item"
+                (click)="showProgramsMenu = false">
                 <a> HYBRID 360FIT Kids </a>
               </li>
 
-              <li
-                routerLink="/Programs/Open Gym"
-                routerLinkActive="active-item"
-                (click)="showProgramsMenu = false"
-              >
+              <li routerLink="/Programs/Open Gym" routerLinkActive="active-item" (click)="showProgramsMenu = false">
                 <a> Open Gym </a>
               </li>
 
-              <li
-                routerLink="/Programs/Brotherhood Corporate Wellness"
-                routerLinkActive="active-item"
-                (click)="showProgramsMenu = false"
-              >
+              <li routerLink="/Programs/Brotherhood Corporate Wellness" routerLinkActive="active-item"
+                (click)="showProgramsMenu = false">
                 <a> HYBRID 360FIT Corporate Wellness </a>
               </li>
 
-              <li
-                routerLink="/Programs/Outdoor Sessions"
-                routerLinkActive="active-item"
-                (click)="showProgramsMenu = false"
-              >
+              <li routerLink="/Programs/Outdoor Sessions" routerLinkActive="active-item"
+                (click)="showProgramsMenu = false">
                 <a> Outdoor Sessions </a>
               </li>
             </ul>
@@ -143,9 +106,13 @@
         </li>
 
         <li class="main">
-          <a routerLink="/Contact Us" routerLinkActive="active-item"
-            >CONTACT US</a
-          >
+          <a target="_blank" href="https://makethebasket.com/">
+            CSR ACTIVITY
+          </a>
+        </li>
+
+        <li class="main">
+          <a routerLink="/Contact Us" routerLinkActive="active-item">CONTACT US</a>
         </li>
       </ul>
     </div>
